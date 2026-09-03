@@ -81,6 +81,9 @@ const DEFAULT_CANON = {
   448: { number: 448, title: "F138 — The Real Numbers — 12 Pairs with Semantic Divergence (0.231 vs 0.171)", f_number: 138, phase: 254, date: "2026-09-03", ref_papers: [], ref_f_numbers: [133, 137] },
   449: { number: 449, title: "F139 — Wearable Neural Devices + Quilt — The Synergy of Signaling-as-Play", f_number: 139, phase: 256, date: "2026-09-03", ref_papers: [], ref_f_numbers: [129, 130, 131] },
   450: { number: 450, title: "F140 — The Negative Space: Decomposition × Composition × Double-Entry Bookkeeping of the Self", f_number: 140, phase: 257, date: "2026-09-03", ref_papers: [], ref_f_numbers: [129, 133, 137, 138, 139] },
+  451: { number: 451, title: "F141 — The Co-Captain: A Symbiotic Digital Twin with a Hand-On / Hands-Off Dial", f_number: 141, phase: 258, date: "2026-09-03", ref_papers: [], ref_f_numbers: [129, 140, 139] },
+  452: { number: 452, title: "F142 — The Back-Deck Game: Multi-Dimensional Scoring for Industrial Operations", f_number: 142, phase: 258, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 143] },
+  453: { number: 453, title: "F143 — The Mudra-Band Emulator: Webcam-Based Hand Pose for Industrial Training", f_number: 143, phase: 258, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 142] },
 };
 
 class LiveCanon {
