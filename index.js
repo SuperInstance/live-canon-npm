@@ -100,6 +100,9 @@ const DEFAULT_CANON = {
   420: { number: 420, title: "F110 — Polyformalism: When the Same Cell Shape Works in C, Python, Rust, and Beyond", f_number: 110, phase: 234, date: "2026-09-03", ref_papers: [], ref_f_numbers: [100, 104, 115, 116, 117, 118] },
   423: { number: 423, title: "F113 — QUF: Quilt Universal Format — The 6th Cutting-Edge Adoption", f_number: 113, phase: 235, date: "2026-09-03", ref_papers: [], ref_f_numbers: [100, 115, 116] },
   424: { number: 424, title: "F114 — Verilog Cells Meet Time-Series Forecasters: The q_cell × TimeCell Synergy", f_number: 114, phase: 236, date: "2026-09-03", ref_papers: [], ref_f_numbers: [100, 113, 115, 116, 117] },
+  461: { number: 461, title: "F152 — The Co-Captain REST API: From Local to Fleet", f_number: 152, phase: 261, date: "2026-09-03", ref_papers: [], ref_f_numbers: [141, 144, 145] },
+  462: { number: 462, title: "F153 — The 5-Substrate Echo Test: Polyformalism as a Deployment Substrate", f_number: 153, phase: 261, date: "2026-09-03", ref_papers: [], ref_f_numbers: [144] },
+  463: { number: 463, title: "F154 — The Cowbell: A Persistent Crew-Member Notification System", f_number: 154, phase: 261, date: "2026-09-03", ref_papers: [], ref_f_numbers: [141, 142, 149, 151] },
 };
 
 class LiveCanon {
