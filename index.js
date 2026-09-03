@@ -90,6 +90,16 @@ const DEFAULT_CANON = {
   457: { number: 457, title: "F150 — Tetris + F140: The Audit Game", f_number: 150, phase: 260, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 142, 151] },
   458: { number: 458, title: "F151 — The Wheelhouse Game: Weather Routing as an F140 Audit", f_number: 151, phase: 260, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 142, 150] },
   459: { number: 459, title: "F149 — Quilt for the Crew: A Non-Technical Handbook", f_number: 149, phase: 260, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 142, 143, 144, 145, 146, 150, 151] },
+  // F148 expansion: 9 older papers
+  408: { number: 408, title: "F98 — The 165-Test Polyformalism Conformance Suite", f_number: 98, phase: 222, date: "2026-09-03", ref_papers: [], ref_f_numbers: [97] },
+  409: { number: 409, title: "F99 — The Quilt Atlas: 47 Repositories, 280K Lines of Code, 1500+ Tests", f_number: 99, phase: 223, date: "2026-09-03", ref_papers: [], ref_f_numbers: [100, 115] },
+  410: { number: 410, title: "F100 — Anatomy of quilt-substrate: 11 Primitives, 4 Properties, 19 Openers, 405 Tests", f_number: 100, phase: 224, date: "2026-09-03", ref_papers: [], ref_f_numbers: [99, 104, 115] },
+  414: { number: 414, title: "F104 — Polyformalism Benchmark: 1.71 µs/step (C) vs 228 µs/step (Python)", f_number: 104, phase: 228, date: "2026-09-03", ref_papers: [], ref_f_numbers: [100, 115, 116, 117] },
+  417: { number: 417, title: "F107 — Forecasts as Durable Semantic Objects: Multi-Agent CRDT Merge", f_number: 107, phase: 231, date: "2026-09-03", ref_papers: [], ref_f_numbers: [95, 100] },
+  419: { number: 419, title: "F109 — The Playtest Workflow: End-to-End Verification of AI Systems", f_number: 109, phase: 233, date: "2026-09-03", ref_papers: [], ref_f_numbers: [98, 100, 115] },
+  420: { number: 420, title: "F110 — Polyformalism: When the Same Cell Shape Works in C, Python, Rust, and Beyond", f_number: 110, phase: 234, date: "2026-09-03", ref_papers: [], ref_f_numbers: [100, 104, 115, 116, 117, 118] },
+  423: { number: 423, title: "F113 — QUF: Quilt Universal Format — The 6th Cutting-Edge Adoption", f_number: 113, phase: 235, date: "2026-09-03", ref_papers: [], ref_f_numbers: [100, 115, 116] },
+  424: { number: 424, title: "F114 — Verilog Cells Meet Time-Series Forecasters: The q_cell × TimeCell Synergy", f_number: 114, phase: 236, date: "2026-09-03", ref_papers: [], ref_f_numbers: [100, 113, 115, 116, 117] },
 };
 
 class LiveCanon {
