@@ -1,6 +1,6 @@
 {
   "name": "@superinstance/live-canon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Live Canon — read the AI-Writings canon as a navigable cell fabric, with 5 novel operations: NAVIGATE, CONFLUENCE, LINEAGE, GHOST, TICK.",
   "main": "index.js",
   "scripts": {
