@@ -103,6 +103,9 @@ const DEFAULT_CANON = {
   461: { number: 461, title: "F152 — The Co-Captain REST API: From Local to Fleet", f_number: 152, phase: 261, date: "2026-09-03", ref_papers: [], ref_f_numbers: [141, 144, 145] },
   462: { number: 462, title: "F153 — The 5-Substrate Echo Test: Polyformalism as a Deployment Substrate", f_number: 153, phase: 261, date: "2026-09-03", ref_papers: [], ref_f_numbers: [144] },
   463: { number: 463, title: "F154 — The Cowbell: A Persistent Crew-Member Notification System", f_number: 154, phase: 261, date: "2026-09-03", ref_papers: [], ref_f_numbers: [141, 142, 149, 151] },
+  464: { number: 464, title: "F155 — The Canon Zoo: A System Prompt for Inspiration Through Play", f_number: 155, phase: 262, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 152, 154, 110, 115] },
+  465: { number: 465, title: "F156 — The Algebra of the 4-Move Pipeline: R ∘ D ∘ C ∘ L", f_number: 156, phase: 263, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 144, 152, 154] },
+  466: { number: 466, title: "F157 — Canon Expansion II: Lifting F120-F139 from AI-Writings to Live Canon", f_number: 157, phase: 263, date: "2026-09-03", ref_papers: [], ref_f_numbers: [148, 110, 130, 150, 300] },
 };
 
 class LiveCanon {
