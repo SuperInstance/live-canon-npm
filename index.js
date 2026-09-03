@@ -84,6 +84,12 @@ const DEFAULT_CANON = {
   451: { number: 451, title: "F141 — The Co-Captain: A Symbiotic Digital Twin with a Hand-On / Hands-Off Dial", f_number: 141, phase: 258, date: "2026-09-03", ref_papers: [], ref_f_numbers: [129, 140, 139] },
   452: { number: 452, title: "F142 — The Back-Deck Game: Multi-Dimensional Scoring for Industrial Operations", f_number: 142, phase: 258, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 143] },
   453: { number: 453, title: "F143 — The Mudra-Band Emulator: Webcam-Based Hand Pose for Industrial Training", f_number: 143, phase: 258, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 142] },
+  454: { number: 454, title: "F144 — The Co-Captain in 5 Substrates: A Polyformalism Atlas", f_number: 144, phase: 259, date: "2026-09-03", ref_papers: [], ref_f_numbers: [141, 143] },
+  455: { number: 455, title: "F145 — Bottle-Router → Cell-Router: Lifting A2A Bottles into Quilt Cells", f_number: 145, phase: 259, date: "2026-09-03", ref_papers: [], ref_f_numbers: [141, 144] },
+  456: { number: 456, title: "F146 — Real MediaPipe Hands in the Back-Deck Game: From Simulator to Production", f_number: 146, phase: 259, date: "2026-09-03", ref_papers: [], ref_f_numbers: [142, 143] },
+  457: { number: 457, title: "F150 — Tetris + F140: The Audit Game", f_number: 150, phase: 260, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 142, 151] },
+  458: { number: 458, title: "F151 — The Wheelhouse Game: Weather Routing as an F140 Audit", f_number: 151, phase: 260, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 142, 150] },
+  459: { number: 459, title: "F149 — Quilt for the Crew: A Non-Technical Handbook", f_number: 149, phase: 260, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 142, 143, 144, 145, 146, 150, 151] },
 };
 
 class LiveCanon {
