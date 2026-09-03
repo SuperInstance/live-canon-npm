@@ -76,6 +76,11 @@ const DEFAULT_CANON = {
   443: { number: 443, title: "F133 — Operational Fictions as Falsifiable Claims (avg divergence 0.861)", f_number: 133, phase: 254, date: "2026-09-03", ref_papers: [], ref_f_numbers: [132] },
   444: { number: 444, title: "F134 — The Quilt Cowboy: Orchestrator Over 12 Cheap Voices", f_number: 134, phase: 254, date: "2026-09-03", ref_papers: [], ref_f_numbers: [132, 133] },
   445: { number: 445, title: "F135 — The Wheelhouse Test: Scoring Fictions for 0300-in-a-Gale Tolerability", f_number: 135, phase: 254, date: "2026-09-03", ref_papers: [], ref_f_numbers: [132, 133] },
+  446: { number: 446, title: "F136 — The Edge of the Doctrine — 6 Experiments", f_number: 136, phase: 254, date: "2026-09-03", ref_papers: [], ref_f_numbers: [132, 133, 134, 135] },
+  447: { number: 447, title: "F137 — The Word-Level Metric is Broken (semantic divergence is real)", f_number: 137, phase: 254, date: "2026-09-03", ref_papers: [], ref_f_numbers: [133, 136] },
+  448: { number: 448, title: "F138 — The Real Numbers — 12 Pairs with Semantic Divergence (0.231 vs 0.171)", f_number: 138, phase: 254, date: "2026-09-03", ref_papers: [], ref_f_numbers: [133, 137] },
+  449: { number: 449, title: "F139 — Wearable Neural Devices + Quilt — The Synergy of Signaling-as-Play", f_number: 139, phase: 256, date: "2026-09-03", ref_papers: [], ref_f_numbers: [129, 130, 131] },
+  450: { number: 450, title: "F140 — The Negative Space: Decomposition × Composition × Double-Entry Bookkeeping of the Self", f_number: 140, phase: 257, date: "2026-09-03", ref_papers: [], ref_f_numbers: [129, 133, 137, 138, 139] },
 };
 
 class LiveCanon {
