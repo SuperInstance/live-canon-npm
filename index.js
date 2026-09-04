@@ -114,6 +114,7 @@ const DEFAULT_CANON = {
   472: { number: 472, title: "F163 — Sonar Vision as 5 Quilt Cells: A Vessel's Perception Decomposed", f_number: 163, phase: 267, date: "2026-09-04", ref_papers: [], ref_f_numbers: [115, 117, 119, 144, 161, 162] },
   473: { number: 473, title: "F164 — cocapn-marine: The Working Animal Stack for the Vessel", f_number: 164, phase: 267, date: "2026-09-04", ref_papers: [], ref_f_numbers: [160, 161, 162, 163] },
   474: { number: 474, title: "F165 — The Agent Priming Toolkit: 4 Layers, 3 Jobs, 1 Contract", f_number: 165, phase: 268, date: "2026-09-04", ref_papers: [], ref_f_numbers: [158, 159, 160, 161, 162] },
+  475: { number: 475, title: "F166 — The Mudra Vessel Bridge: Neural Input for Commercial Fishing", f_number: 166, phase: 268, date: "2026-09-04", ref_papers: [], ref_f_numbers: [158, 159, 163, 164] },
 };
 
 class LiveCanon {
