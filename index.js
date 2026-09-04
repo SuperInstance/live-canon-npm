@@ -106,6 +106,7 @@ const DEFAULT_CANON = {
   464: { number: 464, title: "F155 — The Canon Zoo: A System Prompt for Inspiration Through Play", f_number: 155, phase: 262, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 152, 154, 110, 115] },
   465: { number: 465, title: "F156 — The Algebra of the 4-Move Pipeline: R ∘ D ∘ C ∘ L", f_number: 156, phase: 263, date: "2026-09-03", ref_papers: [], ref_f_numbers: [140, 141, 144, 152, 154] },
   466: { number: 466, title: "F157 — Canon Expansion II: Lifting F120-F139 from AI-Writings to Live Canon", f_number: 157, phase: 263, date: "2026-09-03", ref_papers: [], ref_f_numbers: [148, 110, 130, 150, 300] },
+  467: { number: 467, title: "F158 — The Mechanic Doctrine: Agent Priming for Vibe-Coders", f_number: 158, phase: 264, date: "2026-09-03", ref_papers: [], ref_f_numbers: [110, 140, 152, 154, 156] },
 };
 
 class LiveCanon {
