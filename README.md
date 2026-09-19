@@ -3,7 +3,7 @@
 **Live Canon — read the AI-Writings canon as a navigable cell fabric.**
 
 [![npm](https://img.shields.io/npm/v/@superinstance/live-canon)](https://www.npmjs.com/package/@superinstance/live-canon)
-[![State hash](https://img.shields.io/badge/state_hash-0xbf27a3631cdee337-brightgreen)](https://live-canon.superinstance.dev)
+[![State hash](https://img.shields.io/badge/state_hash-0x445185a3a99fd2e7-brightgreen)](https://live-canon.superinstance.dev)
 [![Polyformalism](https://img.shields.io/badge/polyformal-6_substrates-blueviolet)](https://github.com/SuperInstance/quilt-cowboy)
 
 ## What it does
@@ -32,7 +32,7 @@ const { LiveCanon } = require('@superinstance/live-canon');
 const canon = new LiveCanon();
 
 // State hash (byte-exact with Python/C/Rust/Verilog/VHDL/JS-Worker)
-console.log(canon.stateHashString);  // 0xbf27a3631cdee337
+console.log(canon.stateHashString);  // 0x445185a3a99fd2e7
 
 // 1. NAVIGATE — BFS from a paper
 const path = canon.navigate(425, 2);
@@ -56,29 +56,36 @@ console.log(canon.tick());
 
 ## Live data
 
-The package bundles 9 papers from the polyformalism cascade (F115-F130).
-For the full canon, fetch from the live URL:
+The package bundles **71 papers** — the full committed corpus
+(live-canon-gh `data.json` @ master, F98–F165). For the moving frontier,
+fetch from the live URL:
 
 ```js
 const canon = await LiveCanon.fromUrl('https://live-canon.superinstance.dev/api/canon');
 ```
 
-## Polyformalism
+## Polyformalism — honest drift dashboard (2026-09-20)
 
-The Live Canon is byte-exact across 6 substrates:
+The canon moved: the state hash is now the **canonical serialization**
+(`0x01 ‖ id(u64 LE) ‖ 16 dials(u16 LE) ‖ neighbors(u64 LE)`, one FNV-1a
+pass over sorted cells), not the retired v0.2.0 dial-vectors-only hash.
+The old number `0xbf27a3631cdee337` is **stranded** — it was the dial-only
+algorithm over a retired 9-paper bundle and no corpus under the current
+algorithm can reach it. See quilt-floor `classifyTargetProvenance`.
 
-| Substrate | Status | State hash |
+| Substrate | Status | State hash (71 papers) |
 |---|---|---|
-| Python (this) | reference | `0xbf27a3631cdee337` |
-| JavaScript (npm) | this package | `0xbf27a3631cdee337` |
-| JavaScript (Cloudflare Worker) | live | `0xbf27a3631cdee337` |
-| C99 | `live_canon.c` | `0xbf27a3631cdee337` |
-| Rust | `live-canon` crate | (same) |
-| Verilog-2005 | `live_canon.v` | (same) |
-| VHDL-2008 | `live_canon.vhdl` | (same) |
+| Python (this package, ≥0.9.0) | **converged** | `0x445185a3a99fd2e7` |
+| JavaScript (npm, ≥0.9.0) | **converged** | `0x445185a3a99fd2e7` |
+| quilt-floor instrument | **converged** | `0x445185a3a99fd2e7` |
+| live-canon-gh `data.json` | **converged** | `0x445185a3a99fd2e7` (canonical) |
+| Cloudflare Worker | drift → converged on merge | `0x445185a3a99fd2e7` (branch `canon-71-full-corpus`) |
+| C99 / Rust / Verilog / VHDL | **pending port** | — |
 
-The 16-dial encoding is shared: `num_q = number*131`, `f_q = f*218`,
-`phase_q = phase*218`, `year_q = (year-1970)*546`, `title_lo/hi = FNV-1a(title)`.
+The 16-dial encoding is unchanged: `num_q = number*131`, `f_q = f*218`,
+`phase_q = phase*218`, `year_q = (year-1970)*546`, `title_lo/hi =
+FNV-1a(title)`. The serialization now also binds paper id and citation
+edges — that is what moved the number.
 
 ## Live API
 
